@@ -13,7 +13,7 @@
   --white: #fcfaf8;
   --brown: #8c7264;
   --brown-light: #aa9488;
-  --brown-dim: #c4b5aa;
+  --brown-dim: #565352;
   --sand-dark: #cdc3b6;
   --surface: #f4f0eb;
 }
@@ -127,10 +127,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:24px 60px;display:fl
 .sk-item:hover{color:var(--black);padding-left:8px;}
 .sk-item:last-child{border-bottom:none;}
 
-/* TIMELINE */
-#timeline{padding:120px 60px;background:#211d1a;border-top:1px solid var(--sand-dark);}
-#timeline .section-tag{color:var(--brown-light);}
-#timeline .section-tag::before{background:var(--brown);}
+/* EXTRA */
+#extra{padding:120px 60px;background:#211d1a;border-top:1px solid var(--sand-dark);}
+#extra .section-tag{color:var(--brown-light);}
+#extra .section-tag::before{background:var(--brown);}
 .tl-h{font-family:'Playfair Display',serif;font-size:clamp(28px,3.5vw,50px);font-weight:600;color:var(--white);line-height:1.1;letter-spacing:-0.015em;margin-bottom:48px;}
 .tl-h em{font-style:italic;color:var(--brown-light);}
 .tl-list{display:flex;flex-direction:column;}
@@ -190,7 +190,7 @@ footer{background:#211d1a;padding:28px 60px;display:flex;justify-content:space-b
   .s8,.s4,.s5,.s7,.s6,.s12{grid-column:span 1;}
   #skills{padding:80px 24px;}
   .skills-grid{grid-template-columns:1fr 1fr;}
-  #timeline{padding:80px 24px;}
+  #extra{padding:80px 24px;}
   .tl-row{grid-template-columns:1fr;gap:8px;}
   #creds{grid-template-columns:1fr;gap:48px;padding:80px 24px;}
   #contact{padding:80px 24px;}
@@ -208,8 +208,9 @@ footer{background:#211d1a;padding:28px 60px;display:flex;justify-content:space-b
   <a href="#" class="nav-logo">Olivia Wong</a>
   <div class="nav-right">
     <a href="#about" class="nav-link">About</a>
-    <a href="#work" class="nav-link">Work</a>
+    <a href="#experience" class="nav-link">Experience</a>
     <a href="#skills" class="nav-link">Skills</a>
+    <a href="#extra" class="nav-link">Extra</a>
     <a href="#creds" class="nav-link">Credentials</a>
     <a href="#contact" class="nav-cta">Get in touch</a>
   </div>
@@ -222,14 +223,14 @@ footer{background:#211d1a;padding:28px 60px;display:flex;justify-content:space-b
   </div>
   <div class="hero-name">
     OLIVIA<br>
-    <span class="italic">Wong.</span>
+    <span class="italic">Wong</span>
   </div>
   <div class="hero-bottom">
-    <p class="hero-desc"><strong>Co-Founder, CMO, creator.</strong> I build brands at the intersection of culture, technology, and audience. Based in London. Currently leading marketing at MeloMed.</p>
+    <p class="hero-desc"><strong>Co-Founder, CMO, creator.</strong> I build brands at the intersection of culture, technology, and audience. Based in London. Currently leading marketing at MeloMed, Inc.</p>
     <div class="hero-stats">
       <div class="hero-stat"><div class="stat-num">1.6M+</div><div class="stat-label">Views / 90 days</div></div>
-      <div class="hero-stat"><div class="stat-num">3</div><div class="stat-label">Ventures founded</div></div>
-      <div class="hero-stat"><div class="stat-num">£1.3K+</div><div class="stat-label">Funds raised</div></div>
+      <div class="hero-stat"><div class="stat-num">4</div><div class="stat-label">Ventures founded</div></div>
+      <div class="hero-stat"><div class="stat-num">£1.3K+</div><div class="stat-label">Non-profit funds raised</div></div>
     </div>
   </div>
 </section>
@@ -247,18 +248,18 @@ footer{background:#211d1a;padding:28px 60px;display:flex;justify-content:space-b
     <div class="about-body">
       <p>I'm a co-founder and CMO with a track record of building audiences, running brand strategy, and launching ventures from zero. Currently studying Robotics at UAL while leading marketing at <strong>MeloMed</strong>, a healthtech startup at the intersection of music and neuroscience.</p>
       <p>Founded a <strong>limited-edition fashion label</strong> (Aureva Club), grew a personal brand to <strong>1.6M+ views in 90 days</strong>, and ran charity-linked brand campaigns. My edge is reading culture fast and translating it into strategy that converts.</p>
-      <p>I move between healthcare, fashion, tech, and music — bringing <strong>cross-domain thinking</strong> to every brand I touch. Looking for marketing strategy and growth roles at tech or fashion startups.</p>
+      <p>I move between healthcare, fashion, tech, and music — bringing cross-domain thinking to every brand I touch. Looking for marketing strategy and growth roles at tech, healthcare or fashion startups.</p>
     </div>
   </div>
   <div class="about-right">
     <div class="acard sand"><div class="acard-label">Current role</div><div class="acard-val">Co-Founder &amp; CMO @ MeloMed</div></div>
-    <div class="acard dark" style="margin-top:2px;"><div class="acard-label">Education</div><div class="acard-val">BSc Robotics · University of the Arts London</div></div>
+    <div class="acard dark" style="margin-top:2px;"><div class="acard-label">Education</div><div class="acard-val">BSc Creative Robotics · University of the Arts London</div></div>
     <div class="acard sand" style="margin-top:2px;"><div class="acard-label">Languages</div><div class="acard-val">English · Cantonese · Mandarin</div></div>
-    <div class="acard dark" style="margin-top:2px;"><div class="acard-label">Looking for</div><div class="acard-val">Marketing strategy, brand &amp; growth in tech or fashion startups</div></div>
+    <div class="acard dark" style="margin-top:2px;"><div class="acard-label">Looking for</div><div class="acard-val">Marketing strategy, brand &amp; growth in tech, healthcare or fashion startups</div></div>
   </div>
 </section>
 
-<section id="work" class="reveal">
+<section id="experience" class="reveal">
   <div class="section-tag">Experience</div>
   <div class="bento">
     <div class="bc s8 dark">
@@ -269,12 +270,12 @@ footer{background:#211d1a;padding:28px 60px;display:flex;justify-content:space-b
       <span class="bc-tag">Healthtech · Music · Neuroscience</span>
     </div>
     <div class="bc s4 acc">
-      <div class="bc-eye">Personal reach</div>
+      <div class="bc-eye">Personal reach on Instagram</div>
       <div class="big-stat">1.6M</div>
       <div class="bc-desc" style="margin-top:12px;">Views in 90 days across fashion, beauty, wellness and lifestyle.</div>
     </div>
     <div class="bc s5">
-      <div class="bc-eye">May 2025 — Present</div>
+      <div class="bc-eye">May 2025 — Aug 2025</div>
       <div class="bc-co">Aureva Club</div>
       <div class="bc-role">Founder</div>
       <div class="bc-desc">Limited-edition fashion label. 20 pieces per drop, scarcity by design. Strategy, creative direction, production and community all in-house. Instagram and TikTok growth from zero.</div>
@@ -288,21 +289,21 @@ footer{background:#211d1a;padding:28px 60px;display:flex;justify-content:space-b
       <span class="bc-tag">Creator Economy · Brand Storytelling · Growth</span>
     </div>
     <div class="bc s4">
-      <div class="bc-eye">Nov 2023 — Present</div>
+      <div class="bc-eye">Nov 2023 — Sept 2024</div>
       <div class="bc-co">The Amity Fund</div>
       <div class="bc-role">Founder</div>
       <div class="bc-desc">£794+ raised and donated to UK healthcare and social charities. Independent campaigns, events and communications.</div>
-      <span class="bc-tag">Impact · Campaigns</span>
+      <span class="bc-tag">Impact · Campaigns · Non-profit</span>
     </div>
     <div class="bc s4">
       <div class="bc-eye">Sep 2023 — Sep 2024</div>
-      <div class="bc-co">Bobo Boba</div>
-      <div class="bc-role">Brand Partner</div>
+      <div class="bc-co">BoboBoba</div>
+      <div class="bc-role">Partner</div>
       <div class="bc-desc">Brand growth and fundraising campaigns. £551+ directed to local food banks. Grassroots community building and brand activation.</div>
       <span class="bc-tag">F&amp;B · Brand Partnership</span>
     </div>
     <div class="bc s4 dark">
-      <div class="bc-eye">Oct 2024 · London</div>
+      <div class="bc-eye">Oct 2024</div>
       <div class="bc-co">CVC DIF</div>
       <div class="bc-role">Work Experience</div>
       <div class="bc-desc">Bilingual communications and stakeholder engagement at a leading infrastructure investment firm.</div>
@@ -325,17 +326,15 @@ footer{background:#211d1a;padding:28px 60px;display:flex;justify-content:space-b
       <div class="sk-item">Content Creation</div>
       <div class="sk-item">Growth Marketing</div>
       <div class="sk-item">Campaign Management</div>
-      <div class="sk-item">Strategic Marketing</div>
-      <div class="sk-item">Digital Marketing</div>
     </div>
     <div class="sk-col">
       <div class="sk-title">Business &amp; Leadership</div>
       <div class="sk-item">Entrepreneurship</div>
       <div class="sk-item">Business Development</div>
       <div class="sk-item">Project Management</div>
-      <div class="sk-item">Event Management</div>
       <div class="sk-item">Team Leadership</div>
       <div class="sk-item">Fundraising</div>
+      <div class="sk-item">Non-profit</div>
     </div>
     <div class="sk-col">
       <div class="sk-title">Communication</div>
@@ -349,37 +348,41 @@ footer{background:#211d1a;padding:28px 60px;display:flex;justify-content:space-b
     <div class="sk-col">
       <div class="sk-title">Technical</div>
       <div class="sk-item">Python</div>
+      <div class="sk-item">Fusion 360</div>
       <div class="sk-item">Excel (MOS Certified)</div>
       <div class="sk-item">Website Building</div>
-      <div class="sk-item">Data Analysis</div>
-      <div class="sk-item">Microsoft Word (MOS)</div>
+      <div class="sk-item">Microsoft Word (MOS Certified)</div>
     </div>
   </div>
 </section>
 
-<section id="timeline" class="reveal">
-  <div class="section-tag">Beyond Work</div>
+<section id="extra" class="reveal">
+  <div class="section-tag">Extra Work</div>
   <h2 class="tl-h">Volunteering &amp;<br><em>leadership.</em></h2>
   <div class="tl-list">
-    <div class="tl-row">
-      <div class="tl-date">2024 · 7 months</div>
-      <div><div class="tl-title">Royal Surrey NHS Foundation Trust</div><div class="tl-role">Student Volunteer</div><div class="tl-desc">Feeding patients, supporting nurses and doctors, assisting during ward rounds.</div></div>
-    </div>
-    <div class="tl-row">
-      <div class="tl-date">2023 · 11 months</div>
-      <div><div class="tl-title">Alsama Project</div><div class="tl-role">English Tutor</div><div class="tl-desc">Weekly Zoom sessions helping Lebanese students develop English language proficiency.</div></div>
-    </div>
     <div class="tl-row">
       <div class="tl-date">2025 · ongoing</div>
       <div><div class="tl-title">UAL Render Magazine</div><div class="tl-role">Head of Marketing</div><div class="tl-desc">Running marketing for the student magazine at University of the Arts London. Building readership and brand presence.</div></div>
     </div>
     <div class="tl-row">
+      <div class="tl-date">2025 · ongoing</div>
+      <div><div class="tl-title">UAL Hiking Society</div><div class="tl-role">President</div><div class="tl-desc">Running hiking events and socials whilst leading the committee. Building a community for people of the same passion and promoting exercise and healthy lifestyle.</div></div>
+    </div>
+    <div class="tl-row">
       <div class="tl-date">2022 — 2025</div>
-      <div><div class="tl-title">St Catherine's School</div><div class="tl-role">Senior Boarder Prefect · ECO Prefect · Maths Mentor</div><div class="tl-desc">Editor-in-chief of school newspaper and ECO newsletter. Founder of Computer Science, Medical Reading and Finance clubs. Gold DofE.</div></div>
+      <div><div class="tl-title">St Catherine's School</div><div class="tl-role">Senior Boarder Prefect · ECO Prefect · Mathematics Mentor</div><div class="tl-desc">Editor-in-chief of school newspaper and ECO newsletter. Founder of Computer Science, Medical Reading and Finance clubs. Gold DofE. Young Enterprise Partner.</div></div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-date">2024 · 7 months</div>
+      <div><div class="tl-title">Royal Surrey NHS Foundation Trust</div><div class="tl-role">Student Volunteer</div><div class="tl-desc">Feeding patients, supporting nurses and doctors, assisting during ward rounds.</div></div>
     </div>
     <div class="tl-row">
       <div class="tl-date">2024 · London</div>
-      <div><div class="tl-title">NHS Clinical Shadowing</div><div class="tl-role">Moorfields · Imperial · St George's · Guy's &amp; St Thomas'</div><div class="tl-desc">Shadowed consultants across neurosurgery, cardiothoracic, ophthalmology, vascular and haematology. Theatre surgeries and ward rounds across London's leading hospitals.</div></div>
+      <div><div class="tl-title">NHS Clinical Shadowing</div><div class="tl-role">Moorfields · Imperial · St George's · Guy's &amp; St Thomas'</div><div class="tl-desc">Shadowed consultants across neurosurgery, cardiothoracic surgery, ophthalmology, vascular surgery and haematology. Theatre surgeries and ward rounds across London's leading hospitals.</div></div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-date">2023 · 11 months</div>
+      <div><div class="tl-title">Alsama Project</div><div class="tl-role">English Tutor</div><div class="tl-desc">Weekly Zoom sessions helping refugee students develop English language proficiency.</div></div>
     </div>
   </div>
 </section>
@@ -387,24 +390,24 @@ footer{background:#211d1a;padding:28px 60px;display:flex;justify-content:space-b
 <section id="creds" class="reveal">
   <div>
     <div class="section-tag">Education</div>
-    <div class="edu-block"><div class="edu-school">University of the Arts London</div><div class="edu-deg">BSc Robotics · 2025–2028</div><div class="edu-detail">President of Hiking Society · President of Yoga Society (in training) · Head of Marketing at Render Student Magazine</div></div>
-    <div class="edu-block"><div class="edu-school">St Catherine's School, Bramley</div><div class="edu-deg">A-Levels: Mathematics, Biology, Chemistry · 2020–2025</div><div class="edu-detail">Senior Boarder Prefect · ECO Sustainability Prefect · Maths Mentor · Gold DofE · Editor-in-Chief (newspaper + ECO) · Founder of CS, Medical Reading &amp; Finance clubs · GAIN Investment Challenge · Model UN</div></div>
+    <div class="edu-block"><div class="edu-school">University of the Arts London</div><div class="edu-deg">BSc Creative Robotics · 2025–2028</div><div class="edu-detail">President of Hiking Society · Head of Marketing at Render Student Magazine</div></div>
+    <div class="edu-block"><div class="edu-school">St Catherine's School, Bramley</div><div class="edu-deg">A-Levels: Mathematics, Biology, Chemistry · 2020–2025</div><div class="edu-detail">Senior Boarder Prefect · ECO Sustainability Prefect · Mathematics Mentor · Gold DofE · Editor-in-Chief (newspaper + ECO) · Founder of CS, Medical Reading &amp; Finance clubs · GAIN Investment Challenge · Young Enterprise · Debating · Model UN · 4 Choirs and Symphony Orchestra </div></div>
     <div class="edu-block"><div class="edu-school">Marymount Secondary School, HK</div><div class="edu-deg">2019–2020</div><div class="edu-detail">Subject Awardee Top 4 in English Language, Integrated Science &amp; Technology and Living</div></div>
   </div>
   <div>
     <div class="section-tag">Credentials</div>
-    <div class="cert-row"><span class="cert-name">2nd Place — VLGE Hackathon</span><span class="cert-org">2026</span></div>
-    <div class="cert-row"><span class="cert-name">ABRSM Grade 8 Singing — Distinction</span><span class="cert-org">ABRSM</span></div>
-    <div class="cert-row"><span class="cert-name">ABRSM Grade 8 Piano — Merit</span><span class="cert-org">ABRSM</span></div>
-    <div class="cert-row"><span class="cert-name">National Cipher Challenge — Top 3% nationally</span><span class="cert-org">Southampton · 2023</span></div>
-    <div class="cert-row"><span class="cert-name">Mathematical Olympiad for Girls — Merit</span><span class="cert-org">UKMT · 2023</span></div>
-    <div class="cert-row"><span class="cert-name">Intermediate Maths Challenge — Gold, Best in Year</span><span class="cert-org">UKMT · 2022</span></div>
-    <div class="cert-row"><span class="cert-name">UK Chemistry Olympiad — Bronze</span><span class="cert-org">RSC · 2024</span></div>
-    <div class="cert-row"><span class="cert-name">Duke of Edinburgh — Gold Award</span><span class="cert-org">DofE · 2025</span></div>
-    <div class="cert-row"><span class="cert-name">Microsoft Office Specialist — Excel Associate</span><span class="cert-org">Microsoft · 2022</span></div>
-    <div class="cert-row"><span class="cert-name">Microsoft Office Specialist — Word 2016</span><span class="cert-org">Microsoft · 2021</span></div>
-    <div class="cert-row"><span class="cert-name">Pro Corda Music Festival — Runner-up 2nd Round</span><span class="cert-org">2023</span></div>
-    <div class="cert-row"><span class="cert-name">First Aid Certificate</span><span class="cert-org">HK St. John · 2023</span></div>
+    <div class="cert-row"><span class="cert-name">VLGE Hackathon - 2nd Place</span><span class="cert-org">2026</span></div>
+    <div class="cert-row"><span class="cert-name">Duke of Edinburgh DofE — Gold Award</span><span class="cert-org">2025</span></div>
+    <div class="cert-row"><span class="cert-name">ABRSM Grade 8 Singing — Distinction</span><span class="cert-org">2025</span></div>
+    <div class="cert-row"><span class="cert-name">Royal Society of Chemistry UK Chemistry Olympiad — Bronze</span><span class="cert-org">2024</span></div>
+    <div class="cert-row"><span class="cert-name">National Cipher Challenge — Top 3% nationally</span><span class="cert-org">2023</span></div>
+    <div class="cert-row"><span class="cert-name">UKMT Mathematical Olympiad for Girls — Merit</span><span class="cert-org">2023</span></div>
+    <div class="cert-row"><span class="cert-name">Hk St. John Ambulance First Aid Certificate</span><span class="cert-org">2023</span></div>
+    <div class="cert-row"><span class="cert-name">Pro Corda Music Festival — 2nd Round Runner-up</span><span class="cert-org">2023</span></div>
+    <div class="cert-row"><span class="cert-name">UKMT Intermediate Maths Challenge — Gold, Best in Year</span><span class="cert-org">2022</span></div>
+    <div class="cert-row"><span class="cert-name">Microsoft Office Specialist — Excel Associate</span><span class="cert-org">2022</span></div>
+    <div class="cert-row"><span class="cert-name">Microsoft Office Specialist — Word 2016</span><span class="cert-org">2021</span></div>
+    <div class="cert-row"><span class="cert-name">ABRSM Grade 8 Piano — Merit</span><span class="cert-org">2021</span></div>
   </div>
 </section>
 
@@ -413,19 +416,19 @@ footer{background:#211d1a;padding:28px 60px;display:flex;justify-content:space-b
     <div>
       <div class="section-tag">Contact</div>
       <div class="contact-h">Let's build<em>something.</em></div>
-      <p class="contact-sub">Open to marketing strategy, brand, and growth roles at tech and fashion startups. Internships, part-time, or consulting.</p>
+      <p class="contact-sub">Open to marketing strategy, brand, growth, and product management roles at tech, healthcare and fashion startups. Internships, part-time, or consulting.</p>
     </div>
     <div class="clinks">
       <a href="https://www.linkedin.com/in/oliviawong2/" class="clink"><div class="cl-l">LinkedIn</div><div class="cl-v">Olivia Wong</div></a>
-      <a href="mailto:oliviawong221@gmail.com" class="clink"><div class="cl-l">Email</div><div class="cl-v">oliviawong221@gmail.com</div></a>
-      <a href="https://melomed.io" class="clink"><div class="cl-l">Startup</div><div class="cl-v">melomed.io</div></a>
+      <a href="mailto:oliviachinyanwong@gmail.com" class="clink"><div class="cl-l">Email</div><div class="cl-v">oliviachinyanwong@gmail.com</div></a>
+      <a href="https://www.linkedin.com/company/melomed-io/" class="clink"><div class="cl-l">Startup</div><div class="cl-v">melomed.io</div></a>
     </div>
   </div>
 </section>
 
 <footer>
   <div class="foot-l">Olivia Wong</div>
-  <div class="foot-r">© 2025 · Built with care</div>
+  <div class="foot-r">© 2026</div>
 </footer>
 
 <script>
